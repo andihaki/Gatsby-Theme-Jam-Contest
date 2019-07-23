@@ -9,18 +9,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby-theme-events": "^1.0.0"
+    "gatsby-source-filesystem": "^2.1.6",
+    "gatsby-transformer-yaml": "^2.2.3"
   },
   "peerDependencies": {
-    "add": "^2.0.6",
     "gatsby": "^2.13.33",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "add": "^2.0.6",
     "gatsby": "^2.13.33",
-    "gatsby-theme-events": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

@@ -1,31 +1,41 @@
-# add dep to site
+# Lesson 1
 
-```bash
+## add dep to site
+
+```sh
 yarn workspace site add gatsby react react-dom gatsby-theme-events@*
 ```
 
 > @\* = workspace can pickup unpusblied theme
 
-# check
+## check
 
-```bash
+```sh
 yarn workspaces info
 ```
 
-# add dep to theme
+## add dep to theme
 
 ```
-yarn workspace gatsby-theme-events add gatsby-theme-events add -P react react-dom gatsby
+yarn workspace gatsby-theme-events add -P react react-dom gatsby
 ```
 
 > -P = peer dependencies
 
 ```
-yarn workspace gatsby-theme-events add gatsby-theme-events add -D react react-dom gatsby
+yarn workspace gatsby-theme-events add -D react react-dom gatsby
 ```
 
-# run dev
+## run dev
 
 ```
 yarn workspace site develop
+```
+
+# Lesson 2, Adding static data to Gatsby theme
+
+## add dep to read .yml
+
+```sh
+yarn workspace gatsby-theme-events add gatsby-source-filesystem gatsby-transformer-yaml
 ```
