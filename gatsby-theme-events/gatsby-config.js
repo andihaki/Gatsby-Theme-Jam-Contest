@@ -1,16 +1,20 @@
-module.exports = ({ contentPath = "data", basePath = "/" }) => ({
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: contentPath
+module.exports = ({ contentPath = "data", basePath = "/" }) => (
+  console.log({ contentPath, basePath }),
+  {
+    plugins: [
+      "gatsby-theme-ui",
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: contentPath
+        }
+      },
+      {
+        resolve: `gatsby-transformer-yaml`,
+        options: {
+          typeName: `Event`
+        }
       }
-    },
-    {
-      resolve: `gatsby-transformer-yaml`,
-      options: {
-        typeName: `Event`
-      }
-    }
-  ]
-});
+    ]
+  }
+);

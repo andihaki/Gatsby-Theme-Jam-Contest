@@ -9,8 +9,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@mdx-js/react": "^1.0.27",
     "gatsby-source-filesystem": "^2.1.6",
-    "gatsby-transformer-yaml": "^2.2.3"
+    "gatsby-theme-ui": "^0.2.0",
+    "gatsby-transformer-yaml": "^2.2.3",
+    "theme-ui": "^0.2.18"
   },
   "peerDependencies": {
     "gatsby": "^2.13.33",

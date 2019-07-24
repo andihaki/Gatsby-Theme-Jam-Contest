@@ -1,3 +1,9 @@
+# source
+
+- https://www.gatsbyjs.org/tutorial/building-a-theme/
+- https://egghead.io/courses/gatsby-theme-authoring
+  > https://github.com/anamwp/gatsby-theme-with-json
+
 # Lesson 1
 
 ## add dep to site
