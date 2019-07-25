@@ -38,9 +38,6 @@ const Event = ({ name, location, startDate, endDate, url }) => (
       {name} ({location})
     </h1>
     <p>
-      {startDate} - {endDate}
-    </p>
-    <p>
       <EventDate startDate={startDate} endDate={endDate} />
     </p>
     <p>
